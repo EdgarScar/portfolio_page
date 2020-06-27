@@ -1,0 +1,45 @@
+.banner{
+	position: relative;
+	top: 0px;
+	left: 0;
+	width: 100%;
+	padding: 135px 0 100px;
+}
+
+.banner .row{
+	position: relative;
+	z-index: 1;
+	text-align: center;
+}
+
+.main-author-img{
+	display: inline-block;
+	border-radius: 50%;
+	border: 10px solid #116466;
+}
+
+.banner img{
+	border-radius: 50%;
+}
+
+.banner h1{
+	font-family: 'Tomorrow', sans-serif;
+	font-size: 61px;
+  color: #d1e8e2;
+  text-shadow: -2px 0 #116466, 0 2px #116466, 2px 0 #116466, 0 -2px #116466;
+	font-weight: 700;
+	margin-top: 40px;
+}
+
+.banner h2{
+	font-family: 'Tomorrow', sans-serif;
+  font-size: 32px;
+  color: #d1e8e2;
+  text-shadow: -2px 0 #116466, 0 2px #116466, 2px 0 #116466, 0 -2px #116466;
+	font-weight: 400;
+	line-height: 50px;
+}
+
+.banner h2 span{
+	font-weight: 700;
+}

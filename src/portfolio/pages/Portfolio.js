@@ -6,20 +6,23 @@ import PortfolioList from '../components/PortfolioList'
 import readitnwipe from '../../assets/readitnwipe.png'
 import mygolf from '../../assets/mygolf.png'
 
+
 const PORTFOLIO_ITEMS = [
   {
     id: 'p1',
     name: 'Read-It-n-Wipe',
-    image: "",
+    image: readitnwipe,
     stack: "MERN (minus React)",
-    blurb: "",
+    website: "https://readitnwipe.herokuapp.com/",
+    blurb: "A themed toilet paper subscription service so you'll never be caught short again!",
     },
     {
     id: 'p2',
     name: 'MyGolf',
-    image: "",
+    image: mygolf,
     stack: "Ruby, Ruby on Rails",
-    blurb: "",
+    website: "https://ca-mygolf.herokuapp.com/",
+    blurb: "A marketplace and a meeting place for local golfers",
     },
     {
     id: 'p3',

@@ -12,11 +12,12 @@
 
 .nav-links li {
   margin: 1rem;
+  font-family: 'Tomorrow', sans-serif;
 }
 
 .nav-links a {
   border: 1px solid transparent;
-  color: #292929;
+  color: #d1e8e2;
   text-decoration: none;
   padding: 0.5rem;
 }
@@ -24,9 +25,9 @@
 .nav-links a:hover,
 .nav-links a:active,
 .nav-links a.active {
-  background: #f8df00;
-  border-color: #292929;
-  color: #292929;
+  background: #D9B08C;
+  border-color: #d1e8e2;
+  color: #116466;
 }
 
 .nav-links button {

@@ -1,7 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Redirect, Switch } from 'react-router-dom'
 
-import Projects from './project/pages/Projects';
 import Home from './home/pages/Home'
 import MainNavigation from './shared/components/Navigation/MainNavigation';
 import Portfolio from './portfolio/pages/Portfolio';
@@ -17,10 +16,9 @@ function App() {
           <Route path="/" exact>
             <Home /> 
           </Route>
-          <Route path="/projects" exact >
+          <Route path="/portfolio" exact >
             <Portfolio /> 
           </Route>
-        <Redirect to="/" />
       </Switch>
     </main>
   </Router>

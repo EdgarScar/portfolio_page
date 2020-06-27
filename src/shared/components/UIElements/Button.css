@@ -1,14 +1,15 @@
 .button {
   font: inherit;
   padding: 0.5rem 1.5rem;
-  border: 1px solid #ff0055;
+  border: 1px solid ;
   border-radius: 4px;
-  background: #ff0055;
-  color: white;
+  background: #D9B08C;
+  color: #116466;
   cursor: pointer;
   margin-right: 1rem;
   text-decoration: none;
   display: inline-block;
+  font-family: 'Courier Prime', monospace;
 }
 
 .button:focus {
@@ -17,8 +18,9 @@
 
 .button:hover,
 .button:active {
-  background: #ff4382;
-  border-color: #ff4382;
+  background: #116466;
+  border-color: #D9B08C;
+  color: #D9B08C;
 }
 
 .button--inverse {
@@ -54,6 +56,7 @@
 
 .button--small {
   font-size: 0.8rem;
+  
 }
 
 .button--big {
