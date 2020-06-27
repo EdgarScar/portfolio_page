@@ -1,10 +1,11 @@
-import React, { useState } from 'react'
-import { Link } from 'react-router-dom'
+import React, { useState, useEffect } from 'react'
+import Aos from 'aos'
 
 import Card from '../../shared/components/UIElements/Card'
 import Button from '../../shared/components/UIElements/Button'
 import Modal from '../../shared/components/UIElements/Modal'
 import './PortfolioItem.css'
+import 'aos/dist/aos.css'
 
 const PortfolioItem = (props) => {
   //Use state for showing details of each item
@@ -12,6 +13,10 @@ const PortfolioItem = (props) => {
   //Handler functions for state of details 
   const openDetailsHandler = () => setShowDetails(true);
   const closeDetailsHandler = () => setShowDetails(false);
+
+  useEffect(() => {
+    Aos.init({ duration: 2000});
+  }, []);
 
   return (
     <React.Fragment>
@@ -27,7 +32,7 @@ const PortfolioItem = (props) => {
           <h2>The is where the image goes</h2>
         </div>
       </Modal>
-      <li className="portfolio-item">
+      <li className="portfolio-item" data-aos={props.fade}>
         <Card className="portfolio-item__content">
           <div className="portfolio-item__image">
             <img src={props.image} alt={props.name} />

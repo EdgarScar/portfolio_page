@@ -14,7 +14,8 @@ const PortfolioList = props => {
       name={item.name} 
       stack={item.stack} 
       website={item.website}
-      blurb={item.blurb}/>)}
+      blurb={item.blurb}
+      fade={item.fade}/>)}
     </ul>
   );
 };

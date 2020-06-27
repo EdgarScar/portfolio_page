@@ -15,7 +15,8 @@ const PORTFOLIO_ITEMS = [
     stack: "MERN (minus React)",
     website: "https://readitnwipe.herokuapp.com/",
     blurb: "A themed toilet paper subscription service so you'll never be caught short again!",
-    },
+    fade: "fade-right",
+   },
     {
     id: 'p2',
     name: 'MyGolf',
@@ -23,6 +24,7 @@ const PORTFOLIO_ITEMS = [
     stack: "Ruby, Ruby on Rails",
     website: "https://ca-mygolf.herokuapp.com/",
     blurb: "A marketplace and a meeting place for local golfers",
+    fade: "flip-right",
     },
     {
     id: 'p3',
@@ -30,6 +32,7 @@ const PORTFOLIO_ITEMS = [
     image: "",
     stack: "Ruby, Ruby on Rails",
     blurb: "",
+    fade: "flip-right",
     },
     {
     id: 'p4',
@@ -37,6 +40,7 @@ const PORTFOLIO_ITEMS = [
     image: "",
     stack: "Ruby",
     blurb: "",
+    fade: "flip-right",
     },
     {
     id: 'p5',
@@ -44,6 +48,7 @@ const PORTFOLIO_ITEMS = [
     image: "",
     stack: "Ruby",
     blurb: "",
+    fade: "flip-right",
     },
     {
     id: 'p6',
@@ -51,6 +56,7 @@ const PORTFOLIO_ITEMS = [
     image: "",
     stack: "MERN",
     blurb: "",
+    fade: "flip-right",
     }
 ];
 
