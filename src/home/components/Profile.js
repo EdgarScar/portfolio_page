@@ -1,4 +1,5 @@
 import React from 'react'
+import Typical from 'react-typical'
 
 import './Profile.css'
 import profile from '../../assets/profile.png'
@@ -12,15 +13,26 @@ export const Profile = () => {
 					<div className="main-author-img">
 						<img src={profile} alt="author image" />
 					</div>
-
-					<h1>Oscar Kennedy Smith</h1>
-					<div className="typing-title">
-					</div>
-					<h2>Web Developer</h2>
-				</div>
+          <div className="headercontainer">
+            <h1>Oscar Kennedy Smith</h1>
+					  <h2>
+              <Typical
+                loop={1}
+                wrapper="b"
+                steps={[
+                  'Frontend',
+                  1000,
+                  'Backend',
+                  1000,
+                  'Full Stack',
+                ]}
+                />            
+              {' '}Developer</h2>
+          </div>
 			</div>
 		</div>
-	</section>
+    </div>
+	  </section>
   )
 }
 

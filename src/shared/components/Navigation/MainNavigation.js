@@ -1,11 +1,13 @@
-import React, { Fragment, useState } from 'react';
+import React, { Fragment, useState, useEffect } from 'react';
 import { Link } from 'react-router-dom'
-;
+import Aos from 'aos'
+
 import MainHeader from './MainHeader'
 import NavLinks from './NavLinks';
 import SideDrawer from './SideDrawer';
-import './MainNavigation.css'
 import Backdrop from '../UIElements/Backdrop';
+import './MainNavigation.css'
+import 'aos/dist/aos.css'
 
 //Main component to render all header components 
 const MainNavigation = props => {
@@ -20,6 +22,10 @@ const MainNavigation = props => {
   const closeDrawerHandler = () => {
     setDrawerIsOpen(false)
   };
+
+  useEffect(() => {
+    Aos.init({ duration: 2000});
+  }, []);
 
   return (
     <Fragment>

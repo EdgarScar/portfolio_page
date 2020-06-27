@@ -20,7 +20,8 @@
 .main-navigation__title {
   color: #d1e8e2;
   font-family: 'Tomorrow', sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
+  padding: 7px 0 0 0;
 }
 
 .main-navigation__title a {
@@ -43,5 +44,11 @@
 
   .main-navigation__header-nav {
     display: block;
+  }
+}
+
+@media (max-width: 767px) {
+  .main-navigation__title {
+    font-size: 1.5rem;
   }
 }

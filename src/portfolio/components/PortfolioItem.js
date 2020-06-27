@@ -15,7 +15,7 @@ const PortfolioItem = (props) => {
   const closeDetailsHandler = () => setShowDetails(false);
 
   useEffect(() => {
-    Aos.init({ duration: 2000});
+    Aos.init({ duration: 1500});
   }, []);
 
   return (
