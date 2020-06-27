@@ -12,36 +12,42 @@ const PORTFOLIO_ITEMS = [
     name: 'Read-It-n-Wipe',
     image: "",
     stack: "MERN (minus React)",
+    blurb: "",
     },
     {
     id: 'p2',
     name: 'MyGolf',
     image: "",
     stack: "Ruby, Ruby on Rails",
+    blurb: "",
     },
     {
     id: 'p3',
     name: 'Flower Power',
     image: "",
     stack: "Ruby, Ruby on Rails",
+    blurb: "",
     },
     {
     id: 'p4',
     name: 'Battleships',
     image: "",
     stack: "Ruby",
+    blurb: "",
     },
     {
     id: 'p5',
     name: 'Pets Club',
     image: "",
     stack: "Ruby",
+    blurb: "",
     },
     {
     id: 'p6',
     name: 'Have Your Say',
     image: "",
     stack: "MERN",
+    blurb: "",
     }
 ];
 
