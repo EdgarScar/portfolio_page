@@ -1,9 +1,10 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Redirect, Switch } from 'react-router-dom'
 
-import Users from './user/pages/Users';
-import NewPlace from './places/pages/NewPet';
+import Projects from './project/pages/Projects';
+import Home from './home/pages/Home'
 import MainNavigation from './shared/components/Navigation/MainNavigation';
+import Portfolio from './portfolio/pages/Portfolio';
 
 function App() {
   return (
@@ -13,11 +14,11 @@ function App() {
     <main>
       {/*Switch prevents subsequent rendering of paths that also match*/}
       <Switch>
-          <Route path="/" exact >
-            <Users /> 
+          <Route path="/" exact>
+            <Home /> 
           </Route>
-          <Route path="/pets/new" exact>
-            <NewPlace/>
+          <Route path="/projects" exact >
+            <Portfolio /> 
           </Route>
         <Redirect to="/" />
       </Switch>
