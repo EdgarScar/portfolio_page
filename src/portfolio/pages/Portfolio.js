@@ -24,7 +24,7 @@ const PORTFOLIO_ITEMS = [
     stack: "Ruby, Ruby on Rails",
     website: "https://ca-mygolf.herokuapp.com/",
     blurb: "A marketplace and a meeting place for local golfers",
-    fade: "fade-right",
+    fade: "",
     },
     {
     id: 'p3',
@@ -32,7 +32,7 @@ const PORTFOLIO_ITEMS = [
     image: "",
     stack: "Ruby, Ruby on Rails",
     blurb: "",
-    fade: "fade-left",
+    fade: "fade-right",
     },
     {
     id: 'p4',
@@ -48,7 +48,7 @@ const PORTFOLIO_ITEMS = [
     image: "",
     stack: "Ruby",
     blurb: "",
-    fade: "fade-left",
+    fade: "fade-right",
     },
     {
     id: 'p6',
