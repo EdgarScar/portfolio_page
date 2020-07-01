@@ -16,8 +16,14 @@ function App() {
           <Route path="/" exact>
             <Home /> 
           </Route>
-          <Route path="/portfolio" exact >
+          <Route path="/portfolio" exact>
             <Portfolio /> 
+          </Route>
+          <Route path="/about" exact>
+          </Route>
+          <Route path="/resume" exact>
+          </Route>
+          <Route path="/contact" exact>
           </Route>
       </Switch>
     </main>
