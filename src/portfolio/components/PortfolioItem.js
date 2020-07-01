@@ -19,19 +19,6 @@ const PortfolioItem = (props) => {
   }, []);
 
   return (
-    <React.Fragment>
-      <Modal 
-        show={showDetails} 
-        onCancel={closeDetailsHandler} 
-        header={props.name} 
-        contentClass="portfolio-item__modal-content"
-        footerClass="portfolio-item__modal-actions"
-        footer={<Button onClick={closeDetailsHandler}>Close</Button>}
-      >
-        <div className='image-container'>
-          <h2>The is where the image goes</h2>
-        </div>
-      </Modal>
       <li className="portfolio-item" data-aos={props.fade}>
         <Card className="portfolio-item__content">
           <div className="portfolio-item__image">
@@ -43,11 +30,13 @@ const PortfolioItem = (props) => {
             <p>{`Tech Stack: ${props.stack}`}</p>
           </div>
           <div className="portfolio-item__actions">
-            <a href={`${props.website}`}><Button>View Website</Button></a>
+            {props.website && 
+              <a href={`${props.website}`}><Button>Website</Button></a>}
+            {props.github &&
+              <a href={`${props.github}`}><Button>Github</Button></a>}
           </div>
         </Card>
-      </li>;
-    </React.Fragment>
+      </li>
   )
 };
 

@@ -5,8 +5,10 @@ import PortfolioList from '../components/PortfolioList'
 //Import images 
 import readitnwipe from '../../assets/readitnwipe.png'
 import mygolf from '../../assets/mygolf.png'
-
-
+import flowerpower from '../../assets/flowerpower.png'
+import battleships from '../../assets/battleships.png'
+import petsclub from '../../assets/petsclub.png'
+ 
 const PORTFOLIO_ITEMS = [
   {
     id: 'p1',
@@ -14,7 +16,8 @@ const PORTFOLIO_ITEMS = [
     image: readitnwipe,
     stack: "MERN (minus React)",
     website: "https://readitnwipe.herokuapp.com/",
-    blurb: "A themed toilet paper subscription service so you'll never be caught short again!",
+    github: "https://github.com/ReadItAndWipe/bum_chum",
+    blurb: "Themed toilet paper subscription service so you'll never be caught short again!",
     fade: "fade-right",
    },
     {
@@ -23,41 +26,47 @@ const PORTFOLIO_ITEMS = [
     image: mygolf,
     stack: "Ruby, Ruby on Rails",
     website: "https://ca-mygolf.herokuapp.com/",
-    blurb: "A marketplace and a meeting place for local golfers",
+    github: "https://github.com/EdgarScar/MyGame_Golf",
+    blurb: "Hub for local golfers to socialise and buy/sell equipment",
     fade: "",
     },
     {
     id: 'p3',
     name: 'Flower Power',
-    image: "",
+    image: flowerpower,
+    website: "https://ca-flowerpower.herokuapp.com/",
+    github: "https://github.com/EdgarScar/flower_power",
     stack: "Ruby, Ruby on Rails",
-    blurb: "",
+    blurb: "Marketplace for Australian flower growers to sell produce to local buyers",
     fade: "fade-right",
     },
     {
     id: 'p4',
     name: 'Battleships',
-    image: "",
+    image: battleships,
     stack: "Ruby",
-    blurb: "",
+    github: "https://github.com/EdgarScar/CA_Terminal_Application",
+    blurb: "The classic Battleships board game brought to life in Terminal",
     fade: "fade-right",
     },
     {
     id: 'p5',
-    name: 'Pets Club',
-    image: "",
-    stack: "Ruby",
-    blurb: "",
+    name: 'Portfolio (this)',
+    image: portfolio,
+    github: "",
+    stack: "React",
+    blurb: "Portfolio website built with React",
     fade: "fade-right",
     },
     {
     id: 'p6',
-    name: 'Have Your Say',
-    image: "",
+    name: 'Pets Club (in progress)',
+    image: petsclub,
+    github: "https://github.com/EdgarScar/MERN_APP_PetsAndUsers",
     stack: "MERN",
-    blurb: "",
+    blurb: "Catalog of neighbourhood pets and their owners",
     fade: "fade-right",
-    }
+    },
 ];
 
 const Portfolio = () => {

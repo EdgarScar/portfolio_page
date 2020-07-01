@@ -14,6 +14,7 @@ const PortfolioList = props => {
       name={item.name} 
       stack={item.stack} 
       website={item.website}
+      github={item.github}
       blurb={item.blurb}
       fade={item.fade}/>)}
     </ul>
