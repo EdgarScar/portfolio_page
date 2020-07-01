@@ -8,6 +8,7 @@ import mygolf from '../../assets/mygolf.png'
 import flowerpower from '../../assets/flowerpower.png'
 import battleships from '../../assets/battleships.png'
 import petsclub from '../../assets/petsclub.png'
+import portfolio from '../../assets/portfolio.png'
  
 const PORTFOLIO_ITEMS = [
   {
@@ -53,7 +54,7 @@ const PORTFOLIO_ITEMS = [
     id: 'p5',
     name: 'Portfolio (this)',
     image: portfolio,
-    github: "",
+    github: "https://github.com/EdgarScar/portfolio_page",
     stack: "React",
     blurb: "Portfolio website built with React",
     fade: "fade-right",
