@@ -9,7 +9,7 @@ const NavLinks = props => {
     <ul className="nav-links">
       <li>
         {/*NavLink, similar to Link but with styling capabilities*/}
-        <NavLink to='/' exact>Home</NavLink>
+        <NavLink to='/'>Home</NavLink>
       </li>
       <li>
         <NavLink to='/about'>About</NavLink>
