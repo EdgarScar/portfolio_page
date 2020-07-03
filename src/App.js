@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Redirect, Switch } from 'react-router-d
 import Home from './home/pages/Home'
 import MainNavigation from './shared/components/Navigation/MainNavigation';
 import Portfolio from './portfolio/pages/Portfolio';
+import About from './about/pages/About'
 
 function App() {
   return (
@@ -20,12 +21,14 @@ function App() {
             <Portfolio /> 
           </Route>
           <Route path="/about" exact>
+            <About />
           </Route>
           <Route path="/resume" exact>
           </Route>
           <Route path="/contact" exact>
           </Route>
       </Switch>
+      <Redirect path="/"/>
     </main>
   </Router>
   );
