@@ -1,0 +1,15 @@
+.header-info {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 5% 15% 3% 20%;
+  text-align: center;
+  color: #d1e8e2;
+  font-family: 'Tomorrow', sans-serif;
+}
+
+.header-info p {
+  text-align: center;
+  margin: 0;
+}
+

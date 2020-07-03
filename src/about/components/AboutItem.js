@@ -1,34 +1,37 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 import Card from '../../shared/components/UIElements/Card'
-import Button from '../../shared/components/UIElements/Button'
+import 'aos/dist/aos.css'
 import './AboutItem.css'
-import PortfolioItem from '../../portfolio/components/PortfolioItem'
-
-const showMore = false;
 
 const AboutItem = (props) => {
+  const [showBody, setShowBody] = useState(false)
+
+  const showBodyHandler = (event) => {
+    setShowBody(!showBody)
+  }
+
   return (
-    <li className="about-item" data-aos={props.fade}>
+    <div className="about-item" data-aos={props.fade}>
       <Card className="about-item__content">
         <div className="about-item__image">
-          <img src={props.image} alt={props.name} />
+          <img src={props.image} alt={props.name} onClick={showBodyHandler}/>
         </div>
         <div className="about-item__data">
           <div className="about-item__info">
             <h2>{props.title}</h2>
             <p>{props.blurb}</p>
-            <div className="about-item__actions">
-                <button>Read more...</button>
-            </div>
+          <div className="about-item__actions">
+              <button onClick={showBodyHandler}>{showBody ? `Close` : `Read more...`}</button>
           </div>
-          <div>
-            {showMore && 
-              <p>{props.body}</p>}
           </div>
         </div>
       </Card>
-    </li>
+      <div className="about-item__body">
+        {showBody && 
+          <p>{props.body}</p>}
+      </div>
+    </div>
   )
 }
 

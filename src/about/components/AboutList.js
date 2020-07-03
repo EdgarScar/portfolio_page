@@ -5,19 +5,20 @@ import './AboutList.css'
 
 const AboutList = (props) => {
   return (
-    <ul className="about-list">
-      {props.items.map(item => {
-       return <li>
-          <AboutItem 
-            key={item.id}
-            image={item.image}
-            title={item.title}
-            blurb={item.blurb}
-            body={item.body}
-        />
-        </li>
-      })}
-    </ul>
+    <div className="about-list">
+        {props.items.map(item => {
+        return <li>
+            <AboutItem 
+              key={item.id}
+              image={item.image}
+              title={item.title}
+              blurb={item.blurb}
+              body={item.body}
+              fade={item.fade}
+          />
+          </li>
+        })}
+    </div>
   )
 }
 
