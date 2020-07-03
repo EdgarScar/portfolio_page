@@ -1,25 +1,38 @@
 import React from 'react'
 
 import Card from '../../shared/components/UIElements/Card'
+import Button from '../../shared/components/UIElements/Button'
 import './AboutItem.css'
+import PortfolioItem from '../../portfolio/components/PortfolioItem'
+
+const showMore = false;
 
 const AboutItem = (props) => {
   return (
-    <div className="card mb-3">
-      <div className="row no-gutters">
-        <div className="col-md-4">
-          <img src="..." className="card-img" alt="..."/>
+    <li className="about-item" data-aos={props.fade}>
+      <Card className="about-item__content">
+        <div className="about-item__image">
+          <img src={props.image} alt={props.name} />
         </div>
-        <div className="col-md-8">
-          <div className="card-body">
-            <h5 className="card-title">Card title</h5>
-            <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
+        <div className="about-item__data">
+          <div className="about-item__info">
+            <h2>{props.title}</h2>
+            <p>{props.blurb}</p>
+            <div className="about-item__actions">
+                <button>Read more...</button>
+            </div>
+          </div>
+          <div>
+            {showMore && 
+              <p>{props.body}</p>}
           </div>
         </div>
-      </div>
-    </div>
+      </Card>
+    </li>
   )
 }
+
+
+
 
 export default AboutItem

@@ -1,10 +1,11 @@
 import React from 'react'
 
 import AboutItem from './AboutItem'
+import './AboutList.css'
 
 const AboutList = (props) => {
   return (
-    <ul>
+    <ul className="about-list">
       {props.items.map(item => {
        return <li>
           <AboutItem 

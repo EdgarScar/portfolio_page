@@ -1,0 +1,79 @@
+.about-item {
+  margin: 1rem 0;
+}
+
+.about-item__content {
+  margin-right: 5%;
+  display: flex;
+  flex-direction: row;
+}
+
+.about-item_data {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-item__info {
+  padding: 1rem;
+  text-align: center;
+  font-family: 'Tomorrow', sans-serif;
+  color: #d1e8e2;
+}
+
+.about-item__info h2 {
+color: #D9B08C;
+}
+
+.about-item__image {
+  width: 300px;
+  height: 250px;
+  padding: 0.7rem;
+}
+
+.about-item__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.about-item__info p {
+  margin: 0 0 0.5rem 0;
+  text-align: left;
+}
+
+.about-item__actions {
+  padding: 1rem;
+  text-align: center;
+  border-top: 1px solid #ccc;
+}
+
+.about-item__modal-content {
+  padding: 0;
+}
+
+.about-item__modal-actions {
+  text-align: right;
+}
+
+.about-item__actions button,
+.about-item__actions a {
+  margin: 0.5rem;
+}
+
+.image-container {
+  height: 15rem;
+  width: 100%;
+}
+
+@media (min-width: 750) {
+  .about-item__image {
+    max-height: 20rem;
+    max-width: 15rem;
+  } 
+}
+
+@media (max-width: 400px) {
+  .about-item__info {
+    display: none;
+  }
+}
