@@ -15,10 +15,12 @@
 }
 
 .about-item__info {
-  padding: 1rem;
+  padding: 1rem 1rem 1rem 1.1rem;
   text-align: center;
   font-family: 'Tomorrow', sans-serif;
   color: #d1e8e2;
+  display: flex;
+  flex-direction: column;
 }
 
 .about-item__info h2 {
@@ -29,13 +31,14 @@ color: #D9B08C;
   width: 200px;
   height: 190px;
   padding: 0.3rem;
-  border-radius: 1rem;
+  margin-top: 0.5rem;
 }
 
 .about-item__image img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  border-radius: 0.9rem;
 }
 
 .about-item__info p {
@@ -79,30 +82,41 @@ color: #D9B08C;
 
 .about-item__body {
   width: 100%;
-  padding: 0% 0% 1% 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   background-color: #116466;
   border-radius: 0 0 15% 15%;
+  box-shadow: 0 4px 9px #D9B08C;
 }
 
 .about-item__body p {
   max-width: 550px;
   padding:10px;
   text-align: justify;
-  padding: 4% 2% 0 5%;
+  padding: 5% 5% 5% 5%;
   color: #d1e8e2;
   font-family: 'Tomorrow', sans-serif;
 }
 
-@media (min-width: 750) {
+@media (min-width: 750px) {
   .about-item__image {
     max-height: 20rem;
     max-width: 15rem;
   } 
 }
 
-@media (max-width: 400px) {
+@media (max-width: 628px) {
   .about-item__info {
     display: none;
+  }
+
+  .about-item__content {
+    width: 235px;
+  }
+
+  .about-item__body {
+    width: 235px;
   }
 
   .about-item__body p {

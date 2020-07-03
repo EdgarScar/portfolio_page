@@ -7,7 +7,7 @@ const AboutList = (props) => {
   return (
     <div className="about-list">
         {props.items.map(item => {
-        return <li>
+        return <li className="list-item">
             <AboutItem 
               key={item.id}
               image={item.image}

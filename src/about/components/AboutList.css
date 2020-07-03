@@ -11,4 +11,28 @@
   padding: 0 0 3% 0;
 }
 
+.list-item {
+  list-style: none;
+  width: 550px;
+}
 
+@media (max-width: 628px) {
+  .list-item {
+    list-style: none;
+    width: 235px;
+  }
+
+  .about-list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 78%;
+    list-style: none;
+    padding-inline-start: 0px;
+    margin-left: 5%;
+    padding: 0 0 3% 0;
+  }
+
+}
