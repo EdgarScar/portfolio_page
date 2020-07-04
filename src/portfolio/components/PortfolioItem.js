@@ -19,9 +19,9 @@ const PortfolioItem = (props) => {
           </div>
           <div className="portfolio-item__actions">
             {props.website && 
-              <a href={`${props.website}`}><Button>Website</Button></a>}
+              <a href={`${props.website}`} target="blank"><Button>Website</Button></a>}
             {props.github &&
-              <a href={`${props.github}`}><Button>Github</Button></a>}
+              <a href={`${props.github}`} target="blank"><Button>Github</Button></a>}
           </div>
         </Card>
       </div>
