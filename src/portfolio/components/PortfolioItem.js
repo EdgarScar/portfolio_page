@@ -7,7 +7,7 @@ import 'aos/dist/aos.css'
 
 const PortfolioItem = (props) => {
   return (
-      <li className="portfolio-item" data-aos={props.fade}>
+      <div className="portfolio-item" data-aos={props.fade}>
         <Card className="portfolio-item__content">
           <div className="portfolio-item__image">
             <img src={props.image} alt={props.name} />
@@ -24,7 +24,7 @@ const PortfolioItem = (props) => {
               <a href={`${props.github}`}><Button>Github</Button></a>}
           </div>
         </Card>
-      </li>
+      </div>
   )
 };
 

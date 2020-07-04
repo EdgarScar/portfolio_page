@@ -49,7 +49,7 @@ const ABOUT_ITEMS = [
     title: "Traveller",
     blurb: "California  |  Spain  |  London",
     body: "Born and bred in Brisbane, I have lived here most of my life. However, I have also resided beyond its borders. In 2008, I moved to California for a year where I went to high school as a Rotary international exchange student. At 17, it was challenging, but I came to learn there are good people wherever you go and I formed some lifelong friendships, both with American kids and other exchange students from places like Brazil, Argentina and France. During university, I lived and studied in Madrid for a semester. It was another huge life experience that was once again a real pleasure to be able to share it with a group of wonderfully diverse people. I would love to live in London or somewhere else in the UK. When visiting as a tourist in 2015, I was struck by an odd sense of familiarity, a feeling of connection I found to be unique throughout my travels. From the cold weather to the fireplaces, the tech boffins to the football obsessives, I think I could find myself quite at home there one day. ",
-    fade: "fade-right"
+    fade: ""
   },
   {
     id: "a6",
@@ -57,7 +57,7 @@ const ABOUT_ITEMS = [
     title: "5 Years Time",
     blurb: "Senior  |  Security  |  Advocate",
     body: "In 5 years, I see myself as an accomplished senior web developer with a comprehensive knowledge of the backend in a variety of powerful and progressive languages. It is then that I would like to expand my knowledge into cyber security and machine learning. My ultimate goal is to utilise my legal experience and oral and written advocacy skills to bridge the gap between policymakers and tech. The current generation of lawmakers and those who wield political power have a concerning lack of technological understanding. The traditional ways of a national executive branch enacting laws through legislation will be thrown into disarray as code becomes the more powerful and influential medium that will govern our future global civilisation. With knowledge of the legal system and the intricacies of code, it is my aim to be well-positioned to disseminate an understanding of both and help to navigate the precarious balance of how technology will come to influence our lives in a globally digitised society.",
-    fade: "fade-left"
+    fade: ""
   },
 ];
 

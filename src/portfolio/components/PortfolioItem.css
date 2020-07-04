@@ -1,9 +1,12 @@
 .portfolio-item {
-  margin: 1rem 0;
+  padding: 30px 30px 30px 30\px;
+  margin: 0;
+  width: 600px;
+  height: 650px;
 }
 
 .portfolio-item__content {
-  padding: 0 ;
+  height: 100%;
 }
 
 .portfolio-item__info {
@@ -63,3 +66,9 @@ color: #D9B08C;
     height: 20rem;
   } 
 }
+
+/* @media (max-width: 628px) {
+  .portfolio-item__info {
+    width: 100%;
+  }
+} */

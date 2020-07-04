@@ -18,7 +18,7 @@ const PORTFOLIO_ITEMS = [
     stack: "MERN (minus React)",
     website: "https://readitnwipe.herokuapp.com/",
     github: "https://github.com/ReadItAndWipe/bum_chum",
-    blurb: "Themed toilet paper subscription service so you'll never be caught short again!",
+    blurb: "Themed toilet paper subscriptions - never be caught short again!",
     fade: "fade-right",
    },
     {
@@ -29,7 +29,7 @@ const PORTFOLIO_ITEMS = [
     website: "https://ca-mygolf.herokuapp.com/",
     github: "https://github.com/EdgarScar/MyGame_Golf",
     blurb: "Hub for local golfers to socialise and buy/sell equipment",
-    fade: "",
+    fade: "fade-left",
     },
     {
     id: 'p3',
@@ -38,8 +38,8 @@ const PORTFOLIO_ITEMS = [
     website: "https://ca-flowerpower.herokuapp.com/",
     github: "https://github.com/EdgarScar/flower_power",
     stack: "Ruby, Ruby on Rails",
-    blurb: "Marketplace for Australian flower growers to sell produce to local buyers",
-    fade: "fade-right",
+    blurb: "Marketplace for Australian flower growers to sell their produce",
+    fade: "",
     },
     {
     id: 'p4',
@@ -48,7 +48,7 @@ const PORTFOLIO_ITEMS = [
     stack: "Ruby",
     github: "https://github.com/EdgarScar/CA_Terminal_Application",
     blurb: "The classic Battleships board game brought to life in Terminal",
-    fade: "fade-right",
+    fade: "",
     },
     {
     id: 'p5',
@@ -57,7 +57,7 @@ const PORTFOLIO_ITEMS = [
     github: "https://github.com/EdgarScar/portfolio_page",
     stack: "React",
     blurb: "Portfolio website built with React",
-    fade: "fade-right",
+    fade: "",
     },
     {
     id: 'p6',
@@ -66,7 +66,7 @@ const PORTFOLIO_ITEMS = [
     github: "https://github.com/EdgarScar/MERN_APP_PetsAndUsers",
     stack: "MERN",
     blurb: "Catalog of neighbourhood pets and their owners",
-    fade: "fade-right",
+    fade: "",
     },
 ];
 
