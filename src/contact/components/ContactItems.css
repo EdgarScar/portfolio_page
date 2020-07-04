@@ -1,0 +1,34 @@
+.contact-items__container {
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-items {
+  display: flex;
+  align-items: justify;
+}
+
+.contact-item__image {
+  margin: 0 20px 0 20px;
+  transition: transform 1s; /* Animation */
+}
+
+.contact-item__image img:hover {
+  transform: scale(1.1)
+}
+
+.contact-item__image p {
+  width: 480px;
+  padding-top: 20px;
+  display: flex;
+  margin-right: 40px;
+  font-family: 'Tomorrow', sans-serif;
+  color : #d1e8e2;
+}
+
+
+
+

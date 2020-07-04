@@ -2,9 +2,11 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Redirect, Switch } from 'react-router-dom'
 
 import Home from './home/pages/Home'
-import MainNavigation from './shared/components/Navigation/MainNavigation';
-import Portfolio from './portfolio/pages/Portfolio';
+import MainNavigation from './shared/components/Navigation/MainNavigation'
+import Portfolio from './portfolio/pages/Portfolio'
 import About from './about/pages/About'
+import Resume from './resume/pages/Resume'
+import Contact from './contact/pages/Contact'
 
 function App() {
   return (
@@ -24,8 +26,10 @@ function App() {
             <About />
           </Route>
           <Route path="/resume" exact>
+            <Resume />
           </Route>
           <Route path="/contact" exact>
+            <Contact />
           </Route>
       </Switch>
       <Redirect path="/"/>
