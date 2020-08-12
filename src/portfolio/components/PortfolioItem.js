@@ -16,6 +16,8 @@ const PortfolioItem = (props) => {
             <h2>{props.name}</h2>
             <p>{props.blurb}</p>
             <p>{`Tech Stack: ${props.stack}`}</p>
+            {props.credentials &&
+            <p className="credentials">{props.credentials}</p>}
           </div>
           <div className="portfolio-item__actions">
             {props.website && 
